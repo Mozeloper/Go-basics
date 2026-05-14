@@ -15,16 +15,16 @@ func main() {
 	// complex64 complex128
 
 	// Using var
-	// var name = "Brad"
+	// var name = "Moses"
 	var age int32 = 37
 	const isCool = true
 	var size float32 = 2.3
 
 	// Shorthand
-	// name := "Brad"
-	// email := "brad@gmail.com"
+	// name := "Moses"
+	// email := "moses@gmail.com"
 
-	name, email := "Brad", "brad@gmail.com"
+	name, email := "Moses", "moses@gmail.com"
 
 	fmt.Println(name, age, isCool, email)
 	fmt.Printf("%T\n", size)
